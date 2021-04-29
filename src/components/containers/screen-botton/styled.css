@@ -1,0 +1,40 @@
+.pokedex-screen-container3 {
+    border-radius: 10px 10px;
+    margin-bottom: 5px;
+    padding: 0.8rem;
+    width: 300px;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+  }
+  
+  .pokedex-screen-container3 p {
+    color: white;
+  }
+  .pokedex-screen-container3 a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .celdas-azules {
+    background: radial-gradient(hsl(214, 91%, 68%), hsl(214, 70%, 45%));
+    border: 1px 1px 1px 0 solid black;
+  
+    margin: 2.5px;
+    box-shadow: inset 0 0.5px 0 hsl(214, 91%, 68%), 0 1px 0 hsl(214, 91%, 34%),
+      0 1.5px 0 hsl(214, 91%, 32%), 0 2px 0 hsl(214, 91%, 30%),
+      0 2.5px 0 hsl(214, 91%, 20%), 0 3px 0 hsl(214, 91%, 18%),
+      0 3.5px 0 hsl(214, 91%, 16%);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .celdas-azules:hover {
+    background: #437cc7;
+    cursor: pointer;
+  }
+  
+  .celdas-azules:active {
+    background: radial-gradient(hsl(214, 91%, 85%), hsl(214, 91%, 45%));
+  }
